@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dve Šéfky Bez Kravaty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #003da5; /* Modrá farba */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffcc00; /* Žltá farba */
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #003da5;
+            color: white;
+        }
+        .content {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #003da5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dve Šéfky Bez Kravaty</h1>
+    <p>S NAMI SI ŠÉF AJ TY!</p>
+</header>
+
+<nav>
+    <a href="#home">Domov</a>
+    <a href="#blog">Blog</a>
+    <a href="#shop">E-shop</a>
+    <a href="#about">O nás</a>
+</nav>
+
+<div class="content" id="home">
+    <h2>Vitajte na našej stránke!</h2>
+    <p>Začnite objavovať satiru, politiku a všetko, čo znamená byť šéfom. Naša misia? Urobiť politiku zábavnú a prístupnú pre každého!</p>
+</div>
+
+<div class="content" id="blog">
+    <h2>Najnovší blogový príspevok</h2>
+    <h3>Téma: A čo to znamená pre nás?</h3>
+    <p>Tento príspevok sa zaoberá rôznymi otázkami... (môžeš pridať svoj obsah sem!)</p>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 Dve Šéfky Bez Kravaty | Všetky práva vyhradené.</p>
+</div>
+
+</body>
+</html>
